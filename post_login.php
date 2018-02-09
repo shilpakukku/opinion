@@ -13,7 +13,7 @@ else{
 	?>
 
 <script>
-	alert("invalid");
+	 alert("invalid");
 	window.location="login.php";
 </script>
 
