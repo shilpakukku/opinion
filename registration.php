@@ -9,6 +9,8 @@
 	<form method="post" action="post_reg.php">
 		<table border="1">
 			   <tr><td>Name</td><td><input type="text" name="name" required></td></tr>
+			<tr><td>Gender</td><td><input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female</td></tr>
 			 <tr><td>Phone number</td> <td><input type="text" name="phone" required></td></tr>
 	           <tr><td> Email</td><td><input type="email" name="email" required></td></tr>
 	          
