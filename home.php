@@ -1,21 +1,10 @@
-<!doctype html>
-<html>
-<head>
-	<?php
-	session_start()
-	
-	?>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
 
-<body>
 	<?php
-		include('dc.php');
+	session_start();
+include('dc.php');
+	include('reviewtest.php');
 	$username=$_SESSION['user'];
 	echo $username;
-	
-	
+$res=stopwords();
+print_r($res);
 	?>
-</body>
-</html>
