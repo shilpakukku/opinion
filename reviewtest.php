@@ -9,7 +9,7 @@ function stopwords()
 			$s[]=trim($array1[1]);
 	
 		}
-	$query=mysqli_query($con,"select * from tb_review where p_id='7'");
+	$query=mysqli_query($con,"select * from tb_review ");
 	while($array=mysqli_fetch_array($query))
 		{
 			$review=$array[3];
