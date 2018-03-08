@@ -31,7 +31,7 @@
 
 				
 			
-			<tr><td>Review</td><td><textarea name="txt_review" required></textarea></td></tr>
+			<tr><td>Review</td><td><textarea name="txt_review" ></textarea></td></tr>
 			<tr><td> <input type="submit" value="post"</td></tr>
 			</table>
 	</form>
@@ -41,6 +41,3 @@
 	
 </body>
 </html>
-		
-		
-		
