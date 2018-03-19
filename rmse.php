@@ -1,6 +1,8 @@
 <?php
 session_start();
 $u_email=$_SESSION['user'];
+function rms()
+{
 include('dc.php');
 $q=mysqli_query($con,"select * from tb_review");
 $r=mysqli_num_rows($q);
@@ -22,5 +24,6 @@ $rr=($review-$rate)*($review-$rate)/$r;
 $f=sqrt($rr);
 $final=round($f,2);
 echo $final;
-
+return $final;
+}
 ?>
